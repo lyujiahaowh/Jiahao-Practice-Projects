@@ -1,6 +1,6 @@
-## course 01 - steps.py
+# course 01 - steps.py
 
-## Sequence of steps
+# Sequence of steps
 x = 2
 print(x)
 x = x + 2
@@ -8,7 +8,7 @@ print(x)
 
 # --------------------------
 
-## Conditional steps
+# Conditional steps
 y = 5
 if y < 10:
     print('Smaller')
@@ -19,7 +19,7 @@ print('Finish')
 
 # --------------------------
 
-## Repeated steps
+# Repeated steps
 n = 5
 while n >= 0 :
     print(n)
