@@ -13,3 +13,20 @@
 # often a function will take its arguments, do some computation,
 # and return a value to be used as the value of the function call in the calling expression
 # the return keyword is used for this
+# A "fruitful" function is one that produces a reslut(or return value)
+# The return statement ends the function exectuion and "send back" the result of function
+
+# Multiple Parameters / Arguments
+# We can define more than on parameter int the function definition
+# We simply add more arguments when we call the function
+# We match the number and order of argument and parameters
+
+def addtwo(a, b) :
+    added = a + b
+    return added
+
+x = addtwo(3, 5)
+print(x)
+
+# Functions do not return values called "non-fruitful functions"
+# If the return values than called "fruitful functions"
