@@ -20,4 +20,5 @@ for line in fh:
     # guardian in a compound statement
     if len(words) < 3 or words[0] != 'From' :
         print(words[2])
+        count += 1
 print("There were", count, "lines in the file with From as the first word")
