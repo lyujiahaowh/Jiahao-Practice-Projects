@@ -13,3 +13,9 @@ total_sum = sum(int(num) for num in numbers)
 
 # Print the sum
 print("Sum:", total_sum)
+
+
+'''
+import re
+print(sum( [ int(num) for num in re.findall('[0-9]+', open('regex_sum_1755532.txt').read()) ] ))
+'''
